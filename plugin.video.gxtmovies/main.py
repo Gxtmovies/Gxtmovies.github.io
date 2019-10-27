@@ -19,8 +19,11 @@ _handle = int(sys.argv[1])
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
 VIDEOS = {
-            'Horror': [{'name': 'IT : Chapter 2',
-                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
+            'Horror':
+            'thumb': 'http://inspiredgaming.me/images/Horror.jpg' [
+            
+            {'name': 'IT : Chapter 2',
+                       'thumb': 'http://inspiredgaming.me/images/Movie%20images/it.chapter.2.jpg',
                        'video': 'http://192.168.178.16/Movies/IT.CHAPTER.2.mp4',
                        'genre': 'Horror'},                     
                       ], }
